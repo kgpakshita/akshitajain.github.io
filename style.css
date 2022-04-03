@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    /* margin: 10px; */
+    /* background-color: beige;  */
+    border: 20px;
+    border-color: rgb(3, 3, 95);
+    padding: 0;
+ 
+}
+.sidebar{
+    background-color: rgb(231, 131, 94);
+    width: 434px;
+    height: 100%;
+    font-family: 'Elsie', cursive;
+    font-size: small;
+}
+.sidebar nav{
+    padding: 40px;
+    height: 100vh;
+    
+}
+
+.sidebar nav li{
+     list-style: none;
+     font-size: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(21, 23, 74);
+}
+.main{
+    /* background-color: rgb(22, 22, 84); */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    
+}
+.info{
+    /* background-color: red; */
+    padding: 2%;
+    height: 68vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.hello{
+    font-size: 30px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+}
+.infomatics{
+    font-size: 50px;
+    /* font-weight: bold; */
+    font-family: 'Pacifico', cursive;
+}
+.anew{
+    background-image: url(building.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-color: rgb(93, 20, 211);
+    border-color: rgb(13, 13, 130);
+    /* padding-top: 12px;
+    padding-left: 33px; */
+    color: aliceblue;
+    padding: 5%;
+    border: 5cm;
+    border-radius: 10cm;
+    height: 80vh;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+.catcry{
+    align-items: right;
+    height: 40px;
+    width: 40px;
+}
+.he{
+    text-align: center;
+}
+.about{
+    font-size: 30px;
+}
+.buttons{
+    align-self: center;
+    text-align: center
+    
+}
+.buttons button{
+    font-size: 30px;
+    border-radius: 70px;
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0) ;
+    padding: 9px 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.buttons button:hover{
+    background-color: rgb(63, 176, 224);
+    color: black;
+}
+.devpic img{
+    width: 300px;
+    height: 277px;
+}
+
+.images
+{
+    display: inline;
+    /* background-color: blue; */
+    height: 6000px;
+}
+.education{
+    height: 400px;
+    width: 600px;
+    /* background-color: brown; */
+    border: 60px ;
+    border-radius: 60px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+    display: inline;
+}
+/* @media screen(max-width: 1615px) {
+    *{
+        background-color: red;
+    }
+} */
